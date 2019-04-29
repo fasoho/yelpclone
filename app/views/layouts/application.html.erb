@@ -12,12 +12,10 @@
 </head>
 
 <body>
-
   <%= render 'layouts/partials/navbar' %>
-
-  <%= yield %>
-
-  <%= render 'layouts/partials/footer' %>
-
+  <div class="container-fluid">
+    <%= yield %>
+    <%= render 'layouts/partials/footer' %>
+  </div>
 </body>
 </html>
